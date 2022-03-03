@@ -2,10 +2,11 @@ const data = {
   productos: [
     {
       nombre: 'Elden Ring',
+      slug: 'elden-ring',
       categoria: 'PC',
       imagen: '/imagenes/juego1.jpeg',
       precio: 60,
-      compañia: 'From Software',
+      empresa: 'From Software',
       rating: 4.9,
       numReviews: 5,
       stock: 50,
