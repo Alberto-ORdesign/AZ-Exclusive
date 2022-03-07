@@ -14,6 +14,9 @@ import {
 import NextLink from 'next/link';
 import useStyles from '../../utils/styles';
 import Image from 'next/image';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 
 export default function PantallaProducto() {
@@ -46,7 +49,9 @@ export default function PantallaProducto() {
         <Grid item md={3} xs={12}>
           <List>
             <ListItem>
-              <Typography component="h1">{producto.nombre}</Typography>
+              <Typography component="h1" variant="h1">
+                {producto.nombre}
+              </Typography>
             </ListItem>
             <ListItem>
               <Typography>Categoria: {producto.categoria}</Typography>
